@@ -34,7 +34,7 @@ Content-Type: application/json
 Эндпоинты: 
  * CATEGORIES  
         `/api/v1/categories/`  
- * GENRES. 
+ * GENRES  
         `/api/v1/genres/`  
  * TITLES  
         `/api/v1/titles/`   
