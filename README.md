@@ -1,4 +1,4 @@
-# api_yamdb
+# API для YaMDb
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Title).
 Произведения делятся на категории(Category).
 У произведений есть жанры(Genres).
@@ -31,37 +31,22 @@ Content-Type: application/json
 
 ### API
 # Эндпоинты:
- CATEGORIES
- 
-`/api/v1/categories/`
-
- GENRES
- 
-`/api/v1/genres/`
-
- TITLES
- 
-`/api/v1/titles/`
-
-`/api/v1/titles/{titles_id}/`
-
- REVIEWS
- 
-`/api/v1/titles/{title_id}/reviews/`
-
-`/api/v1/titles/{title_id}/reviews/{review_id}/`
-
- COMMENTS
- 
-`/api/v1/titles/{title_id}/reviews/{review_id}/comments/`
-
-`/api/v1/titles/{title_id}/reviews/{review_id}/comments/{comment_id}/`
-
- USERS
- 
-`/api/v1/users/`
-
-`/api/v1/users/{username}/`
+ * CATEGORIES
+        `/api/v1/categories/`
+ * GENRES
+        `/api/v1/genres/`
+ * TITLES       
+        `/api/v1/titles/`
+        `/api/v1/titles/{titles_id}/`
+* REVIEWS
+        `/api/v1/titles/{title_id}/reviews/`
+        `/api/v1/titles/{title_id}/reviews/{review_id}/`
+* COMMENTS 
+        `/api/v1/titles/{title_id}/reviews/{review_id}/comments/`
+        `/api/v1/titles/{title_id}/reviews/{review_id}/comments/{comment_id}/`
+ * USERS
+        `/api/v1/users/`
+        `/api/v1/users/{username}/`
 
 Полная информация по запросам доступна в документации: `/redoc/`
 
